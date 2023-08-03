@@ -1,0 +1,16 @@
+ justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #F7953B;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
