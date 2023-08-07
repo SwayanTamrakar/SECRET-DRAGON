@@ -3,6 +3,7 @@
     flex-direction: row;
     padding: 20px 30px 30px 80px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar img{
@@ -49,6 +50,32 @@
     color: #F7953B;
 }
 
-.bodybar{
+.library{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recomemded{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recomemded_section{
+    padding: 20px 30px;
+    background-color: #E3E3E3;
+    margin-top: 30px;
+    flex-direction: row;
     
+}
+
+.library_section{
+    padding: 20px 30px;
+    background-color: #E3E3E3;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.footer-info{
+    margin: 0;
 }
