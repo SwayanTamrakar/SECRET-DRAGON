@@ -79,3 +79,30 @@
 .footer-info{
     margin: 0;
 }
+
+.body ul li{
+    padding: 3px;
+
+}
+
+.body ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.popular-games{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px 5px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-games{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px 5px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
