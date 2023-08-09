@@ -28,7 +28,6 @@
     border: 1px solid #F7953B;
     background-color: transparent;
     color: #F7953B;
-    height: 50px;
     border-radius: 9px;
     padding: 16px 32px;
     margin-right: 32px;
@@ -39,7 +38,6 @@
     border-radius: 8px;
     padding: 16px 32px;
     border: none;
-    height: 50px;
 }
 .menu ul li a{
     padding: 10px;
@@ -76,8 +74,14 @@
     justify-content: end;
 }
 
-.footer-info{
-    margin: 0;
+.footer-info a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-info li{
+    list-style: none;
 }
 
 .body ul li{
@@ -105,4 +109,21 @@
     padding: 5px 5px 5px 0px;
     justify-content: space-between;
     align-items: center;
+}
+
+.container-full{
+    margin-top: 80px;
+    padding: 20px 30px;
+    background-color: #E3E3E3;
+}
+.container-full button{
+    margin-left: 350px;
+}
+
+.image{
+    margin-top: 30px !important;
+}
+
+.container-fluid{
+    justify-content: space-between;
 }
