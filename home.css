@@ -122,8 +122,14 @@
 
 .image{
     margin-top: 30px !important;
+
 }
 
 .container-fluid{
     justify-content: space-between;
+}
+
+.image1{
+    margin-left: -87px;
+    margin-right: 87px;
 }
