@@ -1,0 +1,10 @@
+.cover-img img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    padding: 50px 50px;
+}
+
+.cover-img{
+    background: #d9d9d9;
+}
