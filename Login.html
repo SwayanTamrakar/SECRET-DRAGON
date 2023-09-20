@@ -15,18 +15,15 @@
         
         <div class="container">
             <div class="row justify-content-center fourms">
-                <form name="myFrom" onsubmit="return validateFrom()" class="box">
+                <form name="myFrom" onsubmit="return validateFrom()" class="box" action="/Index.html">
                     <p class="title"> LOGIN </p>
                     <p class="label">Username:</p>
-                    <input type="text" name="username" placeholder="Enter username" class="input">
+                    <input type="text" name="username" placeholder="Enter username" class="input" autocomplete="off">
                     <p class="label">Password: </p>
                     <input type="password" name="pass" placeholder="Enter password" class="input">
 
-                    <button type="submit" value="Submit" class="submit-btn" align="center">
-                        LOGIN
-                    </button>
-
-                    <p class="txt">Not Registered? <span class="extra">Sign up</span></p>
+                    <input type="submit" value="LOGIN" class="submit-btn">
+                    <a href="/Sign up.html"><p class="txt">Not Registered? <span class="extra">Sign up</span></p></a>
                 
                 </form>
             </div>

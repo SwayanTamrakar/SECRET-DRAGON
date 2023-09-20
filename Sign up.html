@@ -15,21 +15,19 @@
         
         <div class="container">
             <div class="row justify-content-center fourms">
-                <form name="myFrom" onsubmit="return validateFrom()" class="box">
+                <form name="myFrom" onsubmit="return validateFrom()" class="box" action="/Login.html">
                     <p class="title"> Signup </p>
                     <p class="label">Username:</p>
-                    <input type="text" name="username" placeholder="Enter username" class="input">
+                    <input type="text" name="username" placeholder="Enter username" class="input" autocomplete="off">
                     <p class="label">Password: </p>
                     <input type="password" name="pass" placeholder="Enter password" class="input">
                     <p class="label">Re-Enter Password: </p>
-                    <input type="password" name="pass" placeholder="Re-Enter password" class="input">
+                    <input type="password" name="repass" placeholder="Re-Enter password" class="input">
                     
 
-                    <button type="submit" value="Submit" class="submit-btn" align="center">
-                        Signup
-                    </button>
+                    <input type="submit" value="REGISTER" class="submit-btn">
 
-                    <p class="txt">Registered? <span class="extra">LOGIN</span></p>
+                    <a href="/Login.html"><p class="txt">Registered? <span class="extra">LOGIN</span></p></a>
                 
                 </form>
             </div>
@@ -47,6 +45,12 @@
                 let y= document.forms["myFrom"]["pass"].value;
                 if (y == ""){
                     alert("Pass must be filled out");
+                    return false;
+                }
+
+                let z= document.forms["myFrom"]["repass"].value;
+                if (z == ""){
+                    alert("Re-enter the pass");
                     return false;
                 }
             }
