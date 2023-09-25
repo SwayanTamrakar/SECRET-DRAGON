@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px 30px 80px;
+    justify-content: space-between;
+}
+
+.navbar img{
+    height: auto;
+    width: 160px;
+}
+.menu{
+    display: flex;
+}
+
+.menu-items{
+    display: flex;
+    list-style: none;
+}

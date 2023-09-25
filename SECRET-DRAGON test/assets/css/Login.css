@@ -1,0 +1,69 @@
+.fourms{
+    margin-top: 100px !important;
+}
+
+.box{
+    max-width: 360px !important;
+    padding: 10px 20px;
+}
+
+.box .title{
+    color: #EF562E;
+    font-weight: bold;
+    text-align: center;
+    font-size: 55px;
+}
+
+.box .input{
+    padding: 5px 20px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.box .label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box .submit-btn{
+    background-color: #EF562E;
+    padding: 5px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    height: 45px;
+    width: 350px;
+    color: white;
+    font-weight: bold;
+}
+
+.txt{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.extra{
+    text-decoration: underline;
+}
+
+@media (max-width:425px){
+    .box .input{
+        width: 320px;
+    }
+    
+    .box .submit-btn{
+        width: 320px;
+    }
+}
+
+@media (max-width:365px){
+    .box .input{
+        width: 300px;
+    }
+    
+    .box .submit-btn{
+        width: 300px;
+    }
+}
